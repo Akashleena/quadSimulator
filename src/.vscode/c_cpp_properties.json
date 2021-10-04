@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/akashleena/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/akashleena/jetbot_ws/src/hector_gazebo_plugins/include/**",
+        "/home/akashleena/catkin_ws/src/husky/husky_base/include/**",
+        "/home/akashleena/catkin_ws/src/mav_comm/mav_msgs/include/**",
+        "/home/akashleena/catkin_ws/src/mav_comm/mav_planning_msgs/include/**",
+        "/home/akashleena/jetbot_ws/src/realsense_gazebo_plugin/include/**",
+        "/home/akashleena/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
