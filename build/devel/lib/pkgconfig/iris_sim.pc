@@ -1,0 +1,8 @@
+prefix=/home/akashleena/catkin_ws/src/quadSimulator/build/devel
+
+Name: iris_sim
+Description: Description of iris_sim
+Version: 0.0.0
+Cflags: -I/home/akashleena/catkin_ws/src/quadSimulator/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

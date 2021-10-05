@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: iris_sim
+Description: Description of iris_sim
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

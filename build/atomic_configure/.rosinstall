@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/akashleena/catkin_ws/src/quadSimulator/build/devel/setup.sh

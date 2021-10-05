@@ -106,7 +106,7 @@ class RRT(object):
         return self.path
 
     def plot(self):
-        plotly.tools.set_credentials_file(username='yuchnw', api_key='U4zDLjU3ftIprgEzyXTz')
+        plotly.tools.set_credentials_file(username='Akashleena', api_key='1F08d8mauJ8wPvMZAkMZ')
         # Plot initial andg goal points
         trace1 = go.Scatter3d(
             x=[self.q_init.x,self.q_goal.x],
