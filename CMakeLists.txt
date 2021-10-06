@@ -42,5 +42,8 @@ include_directories(
   include
   ${catkin_INCLUDE_DIRS}
 )
-add_executable(iris_sim src/offb_node.cpp)
-target_link_libraries(iris_sim ${catkin_LIBRARIES})
+add_executable(irissim src/offb_node.cpp)
+target_link_libraries(irissim ${catkin_LIBRARIES})
+
+add_executable(iris_lidar src/lidar_avoidance.cpp)
+target_link_libraries(iris_lidar ${catkin_LIBRARIES})

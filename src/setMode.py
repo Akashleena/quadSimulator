@@ -56,7 +56,7 @@ def setLocation():
     global x,y,z,next_x,next_y,next_z
     global path_length,current_order,map_current,reachFlag
     while not rospy.is_shutdown():
-
+        global path_length
         if path_length + 1 == current_order:
             print ("reach goal")
             setLand()
