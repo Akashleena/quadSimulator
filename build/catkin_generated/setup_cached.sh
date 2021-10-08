@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/akashleena/catkin_ws/src/quadSimulator/build/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/akashleena/catkin_ws/src/quadSimulator/build/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/opt/ros/noetic/bin:/usr/lib/ccache:/usr/lib/ccache:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/usr/lib/ccache:/home/akashleena/catkin_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/akashleena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/akashleena/.dotnet/tools:/home/akashleena/ardupilot/Tools/autotest'
 export PKG_CONFIG_PATH="/home/akashleena/catkin_ws/src/quadSimulator/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PYTHONPATH="/home/akashleena/catkin_ws/src/quadSimulator/build/devel/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/akashleena/catkin_ws/src/quadSimulator/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"

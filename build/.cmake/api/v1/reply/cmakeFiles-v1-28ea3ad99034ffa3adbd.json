@@ -1065,6 +1065,98 @@
 			"path" : "/opt/ros/noetic/share/tf/cmake/tfConfig.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros/cmake/mavrosConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros/cmake/mavrosConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/geographic_msgs/cmake/geographic_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/geographic_msgs/cmake/geographic_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/uuid_msgs/cmake/uuid_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/uuid_msgs/cmake/uuid_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/uuid_msgs/cmake/uuid_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/geographic_msgs/cmake/geographic_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/libmavconn/cmake/libmavconnConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/libmavconn/cmake/libmavconnConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/libmavconn/cmake/libmavconn-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros_msgs/cmake/mavros_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros_msgs/cmake/mavros_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros_msgs/cmake/mavros_msgs-msg-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros_msgs/cmake/mavros_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/noetic/share/mavros_msgs/cmake/mavros_msgsConfig.cmake"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "build/catkin_generated/ordered_paths.cmake"
 		},

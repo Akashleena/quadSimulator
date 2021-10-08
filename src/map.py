@@ -37,7 +37,7 @@ yRange = 50
 zRange = 40
 
 q_init = Node(-47,-47,3)
-q_goal = Node(20,45,1)
+q_goal = Node(10,50,30)
 
 rrt_path = RRT(obstacle,q_init,q_goal,xRange,yRange,zRange)
 path = rrt_path.main()

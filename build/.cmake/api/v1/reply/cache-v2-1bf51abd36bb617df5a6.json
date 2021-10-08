@@ -2130,6 +2130,30 @@
 			"value" : "/opt/ros/noetic/share/cpp_common/cmake"
 		},
 		{
+			"name" : "diagnostic_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for diagnostic_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/diagnostic_msgs/cmake"
+		},
+		{
+			"name" : "diagnostic_updater_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for diagnostic_updater."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/diagnostic_updater/cmake"
+		},
+		{
 			"name" : "dynamic_reconfigure_DIR",
 			"properties" : 
 			[
@@ -2140,6 +2164,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/dynamic_reconfigure/cmake"
+		},
+		{
+			"name" : "eigen_conversions_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for eigen_conversions."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/eigen_conversions/cmake"
 		},
 		{
 			"name" : "gazebo_msgs_DIR",
@@ -2236,6 +2272,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/genpy/cmake"
+		},
+		{
+			"name" : "geographic_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for geographic_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/geographic_msgs/cmake"
 		},
 		{
 			"name" : "geometry_msgs_DIR",
@@ -2523,7 +2571,19 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/opt/ros/noetic/lib/librosconsole_bridge.so"
+			"value" : "/opt/ros/noetic/lib/libmavconn.so"
+		},
+		{
+			"name" : "libmavconn_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for libmavconn."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/libmavconn/cmake"
 		},
 		{
 			"name" : "map_msgs_DIR",
@@ -2536,6 +2596,30 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/map_msgs/cmake"
+		},
+		{
+			"name" : "mavros_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for mavros."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/mavros/cmake"
+		},
+		{
+			"name" : "mavros_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for mavros_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/mavros_msgs/cmake"
 		},
 		{
 			"name" : "message_filters_DIR",
@@ -2872,6 +2956,18 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/urdf/cmake"
+		},
+		{
+			"name" : "uuid_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for uuid_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/uuid_msgs/cmake"
 		},
 		{
 			"name" : "visualization_msgs_DIR",

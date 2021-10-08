@@ -1,3 +1,11 @@
+/* © Copyright HoloSuit Pte Ltd. All rights reserved. This software is released as a submission to Robotics Software Engineer post
+ *  Any permission to use it shall be granted in writing. Requests shall be addressed to Akasheena in akash13leena@gmail.com
+ *
+ * Author: Akashleena Sarkar
+ *
+ *==================================================================================================
+*/
+
 #include <ros/ros.h>
 #include <gnc_functions.hpp>
 #include <sensor_msgs/LaserScan.h>
@@ -57,19 +65,19 @@ int main(int argc, char **argv)
     //initialize control publisher/subscribers
     init_publisher_subscriber(n);
 
-    // wait for FCU connection
-  //  wait4connect();
+   // wait for FCU connection
+   //wait4connect();
 
     //wait for user to switch to mode GUIDED
-  //  wait4start();
+    //wait4start();
 
     //create local reference frame 
- //   initialize_local_frame();
+    initialize_local_frame();
 
     //request takeoff
-  //  takeoff(2);
+    takeoff(2);
 
-   // set_destination(0,0,2,0);
+    set_destination(10,50,30,0);
 
     ros::Rate rate(2.0);
     int counter = 0;
