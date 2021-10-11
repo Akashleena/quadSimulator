@@ -1,8 +1,8 @@
-/* © Copyright HoloSuit Pte Ltd. All rights reserved. This software is released as a submission to Robotics Software Engineer post
- *  Any permission to use it shall be granted in writing. Requests shall be addressed to Akasheena in akash13leena@gmail.com
+/* © Copyright Newspace Research and Technologies. All rights reserved.
+ *  Any permission to use it shall be granted in writing. Requests shall be addressed to CAT, NRT
  *
  * Author: Akashleena Sarkar
- *
+ * Email: akashleena.s@newspace.co.in
  *==================================================================================================
 */
 
