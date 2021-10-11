@@ -4,6 +4,21 @@ jinja2
 plotly-v3.10.0
 Rtree-0.8.3
 
+If you get the following error:
+OSError: Could not find libspatialindex_c library file
+
+Solve it using:
+sudo apt-get install automake
+sudo apt-get install libtool
+sudo apt-get install pkg-config
+curl -L https://github.com/libspatialindex/libspatialindex/archive/1.8.5.tar.gz | tar xz
+cd libspatialindex-1.8.5/
+./autogen.sh 
+./configure
+make
+sudo make install
+sudo ldconfig
+
 If there is a conflict between Python2 and Python 3
 Use python virtual environment wrapper
 
